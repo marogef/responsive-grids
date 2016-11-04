@@ -1,0 +1,89 @@
+.black {
+    background-color: black;
+    height: 120px;
+    width: 140px;
+}
+
+.green {
+    background-color: green;
+    height: 120px;
+    width: 140px;
+}
+
+.orange {
+    background-color: orange;
+    height: 120px;
+    width: 140px;
+}
+
+.blue {
+    background-color: blue;
+    height: 120px;
+    width: 140px;
+}
+
+@media only screen and (min-width: 640px) {
+    .col-3 {
+        min-width: 25%;
+    }
+    /* 4 columns */
+    .col-4 {}
+    /* 6 columns */
+    .col-6 {}
+    /* 12 columns */
+    .col-12 {}
+}
+
+<div class="row"> <div class="col-3"> <div class="box orange">3 columns</div> </div>
+/* Mobile defaults */
+
+
+/*
+
+.col-3,
+.col-4,
+.col-6,
+.col-12 {
+    width: 100%;
+}
+
+.col-3,
+.col-4,
+.col-6,
+.col-12 {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+*/
+
+.row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*    margin: auto;*/
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    /*    text-align: center;*/
+}
+
+.box {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*
+.row::before,
+.row::after {
+    display: table;
+    content: '';
+}
+*/
+
+
+/*
+.row::after {
+    clear: both;
+}*/
